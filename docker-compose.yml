@@ -1,0 +1,7 @@
+services:
+  convertpdocxtopdf:
+    build:
+      context: .
+    ports:
+      - 6000:6000
+    restart: unless-stopped
